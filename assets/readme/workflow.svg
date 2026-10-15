@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Paper to evidence to the next research question</title>
+  <desc id="desc">A conceptual research loop: read a paper, check the evidence, and use what is known and unknown to ask the next question. The animated version highlights the three stages in order.</desc>
+  <rect width="1200" height="420" rx="20" fill="#101827"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="64" y="79" fill="#F6F3EB" font-size="44" font-weight="600">A research loop</text>
+    <g id="stage-cards" fill="#1A2940">
+      <rect x="64" y="126" width="312" height="228" rx="10"/>
+      <rect x="444" y="126" width="312" height="228" rx="10"/>
+      <rect x="824" y="126" width="312" height="228" rx="10"/>
+    </g>
+    <g id="stage-labels" fill="#F6F3EB" text-anchor="middle" font-weight="600">
+      <text x="220" y="254" font-size="55">Paper</text>
+      <text x="600" y="254" font-size="52">Evidence</text>
+      <text x="980" y="233" font-size="48">Next</text>
+      <text x="980" y="282" font-size="48">question</text>
+    </g>
+    <g id="base-guides" fill="none" stroke="#657B99" stroke-width="3">
+      <path d="M202 164h25l11 11v28h-36zM227 164v12h11M210 185h18M210 194h12"/>
+      <path d="M582 165h36v36h-36zM590 183l7 7 14-17"/>
+      <path d="M968 171c0-13 25-13 25 1 0 9-12 9-12 19M981 201v2"/>
+      <path d="M396 240h28m-9-9 9 9-9 9M776 240h28m-9-9 9 9-9 9"/>
+      <path d="M104 319h232M484 319h232M864 319h232"/>
+    </g>
+    <g id="paper-evidence" fill="none" stroke="#49D5B1" stroke-width="5" stroke-linecap="round">
+      <path d="M104 319h232M396 240h28m-9-9 9 9-9 9"/>
+    </g>
+    <g id="evidence-question" fill="none" stroke="#49D5B1" stroke-width="5" stroke-linecap="round">
+      <path d="M484 319h232M776 240h28m-9-9 9 9-9 9"/>
+    </g>
+    <g id="next-question" fill="none" stroke="#49D5B1" stroke-width="5" stroke-linecap="round">
+      <path d="M864 319h232"/>
+    </g>
+  </g>
+</svg>

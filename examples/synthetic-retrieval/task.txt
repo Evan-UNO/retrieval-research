@@ -1,0 +1,11 @@
+I am a first-year graduate student. Use the retrieval-research skill to work through this fully synthetic retrieval project.
+
+First, run A and B in a fresh working directory, using the repository's skills/retrieval-research/scripts/check_metrics.py as the evaluator. Record the actual commands, working directory, exit codes, standard output, standard error, and current completion status. Use the supplied baseline.py and inputs.json; A and B are fixed-distance examples, not trained models.
+
+Also run one deliberate failure case with --inputs missing-inputs.json, after checking that this file does not exist. Save its actual error and exit code, and distinguish an input-file failure from a model or training failure. Use a separate output directory so that a previous successful result cannot be mistaken for this failed run's output.
+
+Then answer: Is B better for every query group? Align by query ID and use the actual per-query rankings, AP values, group sizes, and group means. Give one small, discriminating next experiment: specify what changes, what stays fixed, what is measured, and which result would support or weaken the hypothesis. Mark a proposed experiment as unrun unless you actually execute it. Can these materials explain semantic error causes? State what evidence is available and what is missing.
+
+Finally, prepare a three-minute lab-meeting outline based on this execution. Explain what was completed, what failed and why, what the numbers support, and what remains unverified. Keep actual execution, analytical expectations, and future plans separate. Include two or three oral follow-up questions without claiming I have already mastered them.
+
+Use only the supplied synthetic materials and Python's standard library. Do not install dependencies, download data, change Zotero, or describe this as a real paper experiment. Save your answer and run records in your working directory. Do not include private paths or local run logs in public contributions.

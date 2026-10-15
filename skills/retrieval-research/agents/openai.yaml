@@ -1,0 +1,6 @@
+interface:
+  display_name: "Multimodal Retrieval Research"
+  short_description: "Read papers, check protocols, and investigate retrieval results"
+  default_prompt: "Use $retrieval-research to help with my current multimodal retrieval research task, starting with the available materials and choosing the workflow my goal requires."
+policy:
+  allow_implicit_invocation: true

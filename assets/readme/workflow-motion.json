@@ -1,0 +1,17 @@
+{
+  "width": 1200,
+  "fps": 30,
+  "duration": 6.0,
+  "colors": 192,
+  "dither": "none",
+  "transparent_color": "#ff00ff",
+  "alpha_threshold": 128,
+  "clip_to_base_alpha": true,
+  "max_size_mb": 2.0,
+  "reveals": [
+    {"id": "paper-evidence", "axis": "x", "start": 0.3, "end": 1.2, "exit": {"start": 5.2, "end": 5.9}},
+    {"id": "evidence-question", "axis": "x", "start": 1.2, "end": 2.1, "exit": {"start": 5.2, "end": 5.9}},
+    {"id": "next-question", "axis": "x", "start": 2.1, "end": 3.0, "exit": {"start": 5.2, "end": 5.9}}
+  ],
+  "layers": []
+}

@@ -1,0 +1,40 @@
+{
+  "synthetic": true,
+  "task": "synthetic multimodal query bundle to text candidates",
+  "protocol": {
+    "k": null,
+    "ap_denominator": "all_positives",
+    "zero_positive": "exclude",
+    "tie_break": "id"
+  },
+  "queries": [
+    {
+      "query_id": "q1",
+      "group": "complete",
+      "candidate_ids": ["c1", "c2", "c3", "c4"],
+      "positive_ids": ["c1", "c3"],
+      "distances": {"A": [0, 1, 2, 3], "B": [0, 2, 1, 3]}
+    },
+    {
+      "query_id": "q2",
+      "group": "complete",
+      "candidate_ids": ["c1", "c2", "c3", "c4"],
+      "positive_ids": ["c2"],
+      "distances": {"A": [1, 0, 2, 3], "B": [0, 1, 2, 3]}
+    },
+    {
+      "query_id": "q3",
+      "group": "missing_text",
+      "candidate_ids": ["c1", "c2", "c3", "c4"],
+      "positive_ids": ["c4"],
+      "distances": {"A": [0, 1, 2, 3], "B": [1, 2, 3, 0]}
+    },
+    {
+      "query_id": "q4",
+      "group": "missing_image",
+      "candidate_ids": ["c1", "c2", "c3", "c4"],
+      "positive_ids": ["c2", "c4"],
+      "distances": {"A": [0, 1, 2, 3], "B": [2, 1, 3, 0]}
+    }
+  ]
+}
